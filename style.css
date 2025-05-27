@@ -78,3 +78,19 @@ button.prev {
 button.next {
   right: 10px;
 }
+
+.page-footer {
+  text-align: center;
+  padding: 20px 0;
+  font-style: italic;
+  color: #d81b60;       /* Matching the pink/red theme */
+  font-size: 1.1rem;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 40px;
+  user-select: none;
+}
+
+.page-footer .heart {
+  color: #e91e63;
+  font-weight: bold;
+}
