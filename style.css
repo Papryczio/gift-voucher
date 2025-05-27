@@ -44,11 +44,11 @@ p {
 
 .slides {
   display: none;
-  max-height: 500px;
-  max-width: 100%;
-  height: auto;
-  width: 100%;
-  object-fit: contain;
+  max-width: 100%;      /* max width = container width */
+  max-height: 500px;    /* max height limit */
+  width: auto;          /* scale width automatically */
+  height: auto;         /* scale height automatically */
+  object-fit: contain;  /* preserve aspect ratio */
   margin: 0 auto;
 }
 
