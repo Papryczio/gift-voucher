@@ -3,32 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gift Voucher</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f9;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .voucher {
-      background: white;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      padding: 30px;
-      text-align: center;
-      max-width: 900px;
-    }
-    h1 {
-      color: #3f51b5;
-    }
-    p {
-      font-size: 1.1em;
-    }
-  </style>
+  <title>Prezencik ❤️</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="voucher">
@@ -41,7 +17,20 @@
     <li>Tablet</li>
     <p></p>
     <p>Valid until: <strong>Whenever you want babe ❤️</strong></p>
-    <p><em>Kocham Cię</em></p>
+    <p><em>Kocham Cię 🥰</em></p>
   </div>
+
+    <div class="slideshow-container">
+    <img class="slides active" src="photos/20240726_202246.jpg" alt="Photo 1" />
+    <img class="slides" src="photos/20241005_123530.jpg" alt="Photo 2" />
+    <img class="slides" src="photos/20250315_180144.jpg" alt="Photo 3" />
+    <img class="slides" src="photos/20250517_151257.jpg" alt="Photo 4" />
+    <img class="slides" src="photos/20250520_214642.jpg" alt="Photo 5" />
+
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
