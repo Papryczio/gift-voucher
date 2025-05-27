@@ -45,9 +45,11 @@ p {
 .slides {
   display: none;
   max-height: 500px;
-  width: auto;
-  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 100%;
   object-fit: contain;
+  margin: 0 auto;
 }
 
 .slides.active {
